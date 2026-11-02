@@ -1,0 +1,9 @@
+{
+  "uuid": "clipboard-manager@smsanagustin.github.io",
+  "name": "Clipboard Manager",
+  "description": "Searchable clipboard history with a preview, opened with a shortcut.",
+  "shell-version": ["51"],
+  "settings-schema": "org.gnome.shell.extensions.clipboard-manager",
+  "url": "https://github.com/smsanagustin/gnome-clipboard-manager",
+  "version": 1
+}

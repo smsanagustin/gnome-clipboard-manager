@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.clipboard-manager" path="/org/gnome/shell/extensions/clipboard-manager/">
+    <key name="toggle-clipboard-manager" type="as">
+      <default><![CDATA[['<Super><Control>v']]]></default>
+      <summary>Shortcut to open Clipboard Manager</summary>
+    </key>
+    <key name="width" type="i">
+      <range min="400" max="4000"/>
+      <default>900</default>
+      <summary>Window width</summary>
+    </key>
+    <key name="height" type="i">
+      <range min="200" max="4000"/>
+      <default>500</default>
+      <summary>Window height</summary>
+    </key>
+    <key name="show-indicator" type="b">
+      <default>false</default>
+      <summary>Show clipboard icon in the top bar</summary>
+    </key>
+  </schema>
+</schemalist>

@@ -1,0 +1,47 @@
+.clipboard-manager {
+  padding: 12px;
+  spacing: 12px;
+  border-radius: 30px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+}
+
+.clipboard-manager .search-entry {
+  margin: 0;
+}
+
+.clipboard-manager-columns {
+  spacing: 12px;
+}
+
+.clipboard-manager-card {
+  padding: 6px;
+  background-color: #47474c;
+  border-radius: 18px;
+}
+
+.clipboard-manager-item {
+  padding: 9px 12px;
+  border-radius: 12px;
+}
+
+.clipboard-manager-item:selected {
+  background-color: st-lighten(#47474c, 8%);
+}
+
+.clipboard-manager-item:active {
+  background-color: st-lighten(#47474c, 9%);
+}
+
+.clipboard-manager-image-label {
+  color: -st-accent-color;
+}
+
+.clipboard-manager-text {
+  padding: 6px;
+  font-family: monospace;
+}
+
+.clipboard-manager-image {
+  margin: 6px;
+  background-size: contain;
+}
