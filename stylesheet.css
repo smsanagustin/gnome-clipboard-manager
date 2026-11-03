@@ -16,7 +16,7 @@
 .clipboard-manager-card {
   padding: 6px;
   background-color: #47474c;
-  border-radius: 18px;
+  border-radius: 12px;
 }
 
 .clipboard-manager-item {
@@ -44,4 +44,20 @@
 .clipboard-manager-image {
   margin: 6px;
   background-size: contain;
+}
+
+/* use the same CSS selectors targeted by blur my shell */
+.bms-popup-background-transparent .clipboard-manager .clipboard-manager-card,
+.bms-popup-background-dark .clipboard-manager .clipboard-manager-card {
+  background-color: rgba(255, 255, 255, 0.07);
+}
+
+.bms-popup-background-transparent .clipboard-manager .clipboard-manager-item:selected,
+.bms-popup-background-dark .clipboard-manager .clipboard-manager-item:selected {
+  background-color: rgba(255, 255, 255, 0.12);
+}
+
+.bms-popup-background-transparent .clipboard-manager .clipboard-manager-item:active,
+.bms-popup-background-dark .clipboard-manager .clipboard-manager-item:active {
+  background-color: rgba(255, 255, 255, 0.15);
 }
