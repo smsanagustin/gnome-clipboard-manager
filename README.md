@@ -1,6 +1,15 @@
 # Clipboard Manager
 
-Clipboard manager for Gnome.
+A very simple clipboard manager for Gnome.
+
+## Screenshot
+### Default:
+
+<img width="953" height="559" alt="image" src="https://github.com/user-attachments/assets/d693ba7c-1ed9-4e17-82d9-0562c1957715" />
+
+### With [blur my shell](https://github.com/aunetx/blur-my-shell):
+<img width="953" height="559" alt="image" src="https://github.com/user-attachments/assets/d4c250f2-a162-446b-bdf0-77a87f5579db" />
+
 
 ## How to install
 
